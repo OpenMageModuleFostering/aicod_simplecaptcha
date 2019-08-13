@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Aicod_SimpleCaptcha</name>
+    <version>1.0.87489343</version>
+    <stability>stable</stability>
+    <license uri="http://www.ecommercegrow.com/license">http://www.ecommercegrow.com/license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>www.ecommercegrow.com</summary>
+    <description>www.ecommercegrow.com</description>
+    <notes>www.ecommercegrow.com</notes>
+    <authors>
+      <author>
+        <name>ecommercegrow</name>
+        <user>ecommercegrow</user>
+        <email>info@ecommercegrow.com</email>
+      </author>
+    </authors>
+    <compatible/>
+    <dependencies>
+      <required>
+        <php>
+          <min>5.2.0</min>
+          <max>6.0.0</max>
+        </php>
+      </required>
+    </dependencies>
+    <date>2013-05-31</date>
+    <time>13:55:54</time>
+    <contents>
+      <target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Aicod_SimpleCaptcha.xml" hash="d76d31c097510c58a851d68a1550e870"/></dir></dir><dir name="code"><dir name="community"><dir name="Aicod"><dir name="SimpleCaptcha"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Captchatype.php" hash="cfbd5fc56a78c4cf7919c78ca68ff034"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="81d5ecd74d51414990794bbea9af0147"/><file name="system.xml" hash="d1ba6e6afb38b05d0fdf2a397def89a8"/></dir><dir name="Rewrite"><dir name="Captcha"><dir name="Model"><file name="AicodSimpleCaptcha.php" hash="76a0788339360533829eb4b0137ef02b"/></dir></dir></dir><dir name="lib"><dir name="gregwar-captcha"><file name=".gitignore" hash="56453a600452c97a075d3fe69130eac6"/><dir name="demo"><file name="demo.php" hash="a210256e96c03302ba090effea006430"/><file name="fingerprint.php" hash="f29c77c27eeee335e87550b3a7d446bc"/><file name="index.php" hash="f1d9fba2075ad1162038dfc395e804a4"/><file name="ocr.php" hash="b0ea227549cdc626926f6283d22b22d4"/><file name="output.php" hash="b60b7ba57d6ebaea31d4b4bbcec03c6f"/></dir><file name="README.md" hash="9d0a83f27c72fe68c8e638d94d3210bd"/><file name="PhraseBuilder.php" hash="4685a5dedb982ea05e3bf6cb7e0fc206"/><file name="CaptchaBuilder.php" hash="124dbbb1e67faf8bb6972df6149f6eaf"/><file name="PhraseBuilderInterface.php" hash="bfb53f4c305ac0e52d1987f976db4068"/><file name="CaptchaBuilderInterface.php" hash="0986739b343500e6c8d6961affb62413"/><dir name="Font"><file name="captcha3.ttf" hash="39bdd3092b9dea8d90eab635bb361024"/><file name="captcha0.ttf" hash="37d8aff129ecd7d3fc495b7239f834db"/><file name="captcha1.ttf" hash="0d4b2591249119aa691d112230ff337f"/><file name="captcha4.ttf" hash="dfb65e12b864428604262596b857d782"/><file name="captcha2.ttf" hash="9a8bf15d2c29a85096259eec87b03689"/><file name="captcha5.ttf" hash="c916eee735f893d62b48d3ad22531923"/></dir><file name="ImageFileHandler.php" hash="23f86908e1747bac82a56aa3ead4c842"/><file name="LICENSE" hash="3298e4a7f4e4ba3bf012e7242f21b72e"/><file name="composer.json" hash="a964968cd5dd978479c66645966b883b"/></dir><dir name="cool-captcha"><file name="LICENSE.txt" hash="d32239bcb673463ab874e80d47fae504"/><file name="example-form.php" hash="c369d88d4d696de0685b7b42ca7875ac"/><file name="captcha.php" hash="99255302f78ff16e3caed41d70d4001e"/><file name="example.jpg" hash="c43a4ccb03c2ab8d5daaad15e0c93192"/><dir name="resources"><dir name="words"><file name="es.php" hash="6c97d1081960610c83f8129a7c95e7b7"/><file name="en.php" hash="d7b591f35be2dbeb589923b5b979a53d"/></dir><dir name="tools"><dir name="dictionary-import"><file name="sample-words-es.txt" hash="86e831ec736bb57f624a8cb1462d8c86"/><file name="sample-words-en.txt" hash="d750dbbc0ffd664f8393f31ceb521e42"/><file name="importwords.php" hash="cf033b2ade2006a71fc63b0b65c1d9d0"/><file name="README.txt" hash="8dfa4a2001f3a1934eac8c5634eaf7d7"/></dir></dir><dir name="fonts"><file name="VeraSansBold.ttf" hash="4ebf664c986099acf6d151c62bdb24eb"/><file name="StayPuft.ttf" hash="59299d5b871590f70b455395c244e8d6"/><file name="TimesNewRomanBold.ttf" hash="ed6e29caf3843142d739232aa8642158"/><file name="Ding-DongDaddyO.ttf" hash="7bc55743d12c71e4594f4b6b918f8917"/><file name="Heineken.ttf" hash="fbe82ed64fbbd2fef712ad10fc2be7cb"/><file name="Duality.ttf" hash="0a28056baf1a5d86a8b822236462b7cb"/><file name="AntykwaBold.ttf" hash="b9106ffe9631b4ab2e28f3d7accc48a3"/><file name="Candice.ttf" hash="9c7bc61ece0a61a85b6e8a59bebef3d2"/><file name="Jura.ttf" hash="33a1ce8894390c3ccf3ad9d0971ccfff"/></dir></dir></dir></dir><file name="README.TXT" hash="10b54c61620f91b0837b9a2aad901969"/></dir></dir></dir></dir></dir></target>
+    </contents>
+</package>

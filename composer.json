@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Aicod_SimpleCaptcha",
+    "type": "magento-module",
+    "license": "http://www.ecommercegrow.com/license",
+    "homepage": "",
+    "description": "www.ecommercegrow.com",
+    "authors": [
+    {
+        "name": "ecommercegrow",
+        "email": "info@ecommercegrow.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

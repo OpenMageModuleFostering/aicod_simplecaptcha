@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aicod_SimpleCaptcha>
+            <active>1</active>
+            <codePool>community</codePool>
+        </Aicod_SimpleCaptcha>
+    </modules>
+</config>

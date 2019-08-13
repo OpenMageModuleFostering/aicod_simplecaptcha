@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Aicod_SimpleCaptcha>
+      <version>1.0</version>
+    </Aicod_SimpleCaptcha>
+  </modules>
+  
+    <global>
+
+      <models>
+
+        <captcha>
+          <rewrite>
+            <AicodSimpleCaptcha>Aicod_SimpleCaptcha_Rewrite_Captcha_Model_AicodSimpleCaptcha</AicodSimpleCaptcha>
+          </rewrite>
+        </captcha>
+
+      </models>
+
+    </global>
+
+
+    <default>
+      <customer>
+
+        <captcha>
+           <always_for>
+              <user_create>1</user_create>
+              <user_forgotpassword>1</user_forgotpassword>
+              <guest_checkout>1</guest_checkout>
+              <register_during_checkout>1</register_during_checkout>
+              <contacts>1</contacts>
+          </always_for>
+        </captcha>
+
+      </customer>
+    </default>
+    
+  </config>
